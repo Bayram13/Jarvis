@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: jarvis-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: sənintokenin
+      - key: OPENAI_API_KEY
+        value: openaiapiacarin
