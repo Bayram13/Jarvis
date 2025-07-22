@@ -30,7 +30,7 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Gemini modeli
-GEMINI_MODEL = "gemini-pro" # Mətn üçün standart modeldir. Şəkil üçün "gemini-pro-vision" ola bilər.
+GEMINI_MODEL = "gemini-2.5-flash" # Mətn üçün standart modeldir. Şəkil üçün "gemini-pro-vision" ola bilər.
 
 # Sistem mesajı: AI-nın şəxsiyyətini müəyyən edir (Gemini bunu birbaşa dəstəkləmir,
 # lakin hər sorğunun əvvəlinə əlavə edərək simulyasiya edə bilərik)
